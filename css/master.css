@@ -41,6 +41,7 @@ border:4px solid black;
   border:4px solid black;
 }
 #ftcc_logo {
+  width: 50%;
   display:block;
   margin:auto;
 }
