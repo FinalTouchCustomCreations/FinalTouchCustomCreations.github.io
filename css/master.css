@@ -45,3 +45,8 @@ border:4px solid black;
   display:block;
   margin:auto;
 }
+.center_txt{
+  text-align: center;
+  width: 90%;
+  margin:auto;
+}
