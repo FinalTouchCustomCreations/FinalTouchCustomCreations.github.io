@@ -1,0 +1,55 @@
+* {
+  margin:0;
+}
+
+body {
+  font-family: "Arial";
+}
+
+header {
+  background-color:rgb(244, 95, 197);
+  color:white;
+  overflow:auto;
+  padding:20px;
+}
+
+.header_left {
+  float:left;
+}
+.navbar li {
+  display:inline-block;
+  padding:10px;
+  padding-right:0px;
+}
+.header_right {
+  float:right;
+}
+
+main {
+  clear:both;
+  height:600px;
+}
+
+footer {
+  background-color:rgb(244, 95, 197);
+  color:white;
+  overflow:auto;
+  padding:20px;
+}
+
+.footer_left {
+  width:30%;
+  float:left;
+}
+
+.footer_right {
+  width:60%;
+  float:right;
+}
+
+/* TYPOGRAPHY */
+
+.dropcap {
+  font-size: 20pt;
+  font-weight:bold;
+}
