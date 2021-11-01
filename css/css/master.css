@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  font-family: monospace;
+}
+
+header {
+  background-color: rgb(255, 198, 130);
+  padding: 20px;
+  border-bottom: 2px dotted black;
+}
+
+nav {
+border-bottom: 2px dotted black;
+}
+
+.navbar {
+   list-style: none;
+   padding-left: 0px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.nav_first {
+  padding-left:20px;
+}
+
+.navbar li:hover a {
+  color:rgb(255, 198, 130);
+}
+
+footer {
+  background-color: rgb(255, 198, 130);
+  padding: 20PX;
+}
