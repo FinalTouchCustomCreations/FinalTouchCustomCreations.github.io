@@ -12,10 +12,12 @@ header {
 
 #ftcc_logo {
   width: 80%;
-  margin: 20px auto;
-  display: block;
+  margin:20px auto;
+  display:block;
 }
 nav {
+  display: flex;
+  justify-content: space-between;
 /* border-bottom: 0px; */
 }
 
