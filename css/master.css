@@ -6,8 +6,8 @@
 
 header {
   border:5px solid white;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
 
 #ftcc_logo {
@@ -66,8 +66,8 @@ input[type=text] {
   input[type=submit], input[type=reset] {
     color:white;
     padding: 10px;
-    background-color:rgb(244, 95, 197);
-    border:2px solid rgb(244, 95, 197);
+    background-color:rgb(161, 10, 113);
+    border:2px solid rgb(161, 10, 113);
   }
 
   input[type=file]{
@@ -81,14 +81,14 @@ label {
 
 form {
   padding:20px;
-  border: 5px solid rgb(244, 95, 197);
+  /* border: 5px solid rgb(244, 95, 197); */
   color: black;
   border-radius: 2px;
 }
 
 select {
   border: none;
-  border:5px solid rgb(244, 95, 197);
+  border:5px solid rgb(161, 10, 113);
   border-radius:2px;
   width: 300px;
 }
@@ -98,7 +98,7 @@ option {
 }
 textarea {
   border: none;
-  border: 5px solid rgb(244, 95, 197);
+  border: 5px solid rgb(161, 10, 113);
   border-radius: 2px;
   width: 300px;
 }
@@ -111,7 +111,7 @@ textarea {
 }
 
 footer {
-background-color:rgb(244, 95, 197);
+background-color:rgb(161, 10, 113);
 color:white;
 overflow:auto;
 padding:20px;
@@ -135,7 +135,7 @@ font-size: 20pt;
 font-weight:bold;
 }
 
-font-family: "Lobster Two";
+font-family: "Lucida Fax";
 
 }
 /* HEADER AREA */
@@ -143,7 +143,7 @@ font-family: "Lobster Two";
   padding:10px;
   background-color: white;
   color: white;
-  font-family:"Dancing Script";
+  font-family:"Lucida Fax";
 }
 
 .left_header {
