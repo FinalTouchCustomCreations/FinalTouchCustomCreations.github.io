@@ -10,8 +10,13 @@ header {
   justify-content: space-between;
 }
 
+#ftcc_logo {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+}
 nav {
-border-bottom: 0px;
+/* border-bottom: 0px; */
 }
 
 .navbar {
