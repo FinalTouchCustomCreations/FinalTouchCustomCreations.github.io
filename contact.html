@@ -19,62 +19,60 @@
        <li><a href="./about.html">About</a></li>
        <li><a href="./gallery.html">Gallery</a></li>
       </ul>
-    </div>
-     <div class="nav_right">
-      <ul class="navbar">
-       <li><a href="#"><i>I</i></a></li>
-    <li><a href="#">Instagram</a></li>
-       <li><a href="#">Etc...</a></li>
-      </ul>
-    </div>
+      <div class="nav_right">
+       <ul class="navbar">
+        <li><a href="#"><i></i></a></li>
+     <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+       </ul>
+     </div>
     </nav>
-
+<main>
+  <br>
     <div class="subheader">
-      <br>
      <h2>Getting in Touch With Us is Easy! </h2>
-     <br>
-     <h3>Just fill out the information below and someone from our team will get back to you soon</h3>
-   <br>
    </div>
+         <!-- contact -->
+    <div class="fcf-body">
 
-     <main>
-       <h1 id="form_title">Contact Us</h1>
-       <form action="./form_handler.php" method="post"
-       target="_blank">
-       <fieldset>
-         <legend>Personal Information</legend>
-         <input type="text" name="first_name"/>
-         <label for="first_name">First Name</label>
-         <br/>
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
 
-         <input type="text" name="last_name"/>
-         <label for="last_name">Last Name</label>
-         <br/>
-       </fieldset> <br/>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
 
-         <label for="needs">Are you looking for graphic design or have a home remodeling project?</label>
-           <br/> <br/>
-         <input type="radio" name="graphic" value="graphic"/>Graphic Design
-         <input type="radio" name="remodeling" value="remodeling"/>Home Remodeling Project
-         <br/> <br/>
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
 
-         <!-- <label for="foavorite_car">What's your favorite car brand?</label> <br/>
-         <select name="favorite_car" multiple>
-           <option value="referal">Referal</option>
-           <option value="facebook">Facebook</option>
-           <option value="ad">Ad</option>
-           <option value="google">Google</option> -->
-         </select>
-         <br/> <br/>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
 
-         <label for="how_can_we_help">Tell us how we can help you?</label> <br>
-         <textarea name="last_meal"rows="5" cols="45">Short explanation of your needs...</textarea>
-         <br/><br/>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
 
-         <input type="submit" name="submit"/>
-         <input type="reset" name="rest"/>
-         <br> <br>
-        <p>You can always email us at tarafinaltouch@gmail.com or give us a call at 407-655-6769</p>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
+  <br/>
+      <div class="contact-ftcc"><p>You can always email us at tarafinaltouch@gmail.com or give us a call at 407-655-6769</p>
+      </div>
        </form>
      </main>
 
