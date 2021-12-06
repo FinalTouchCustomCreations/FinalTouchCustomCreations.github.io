@@ -315,7 +315,9 @@ font-family: "Lucida Fax";
      .main .gallery {
        display: grid;
        grid-template-columns: auto auto auto;
+       flex-direction: column;
      }
+
    }
 
    @media only screen and (max-width: 430px){
